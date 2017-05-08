@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>TEMUKAN</title>
+  <title>SIKOST</title>
 
   <?php include 'include.php'; ?>
 
@@ -21,8 +21,8 @@
 
   <div class="container-fluid full-screen-section">
     <div class="container text-center">
-      <h1><b>TEMUKAN!</b></h1>
-      <span>Kehilangan barang atau menemukan barang? Mungkin yang kamu cari ada disini</span><br>
+      <h1><b>SIKOST</b></h1>
+      <span>Sedang mencari kost? Mungkin yang kamu cari ada disini!</span><br>
       <form class="search-form">
         <div id="parameter-wrapper" class="container-fluid parameter">
           <div class="form-group row">
@@ -30,13 +30,12 @@
           </div>
           <div class="form-group row text-left">
             <div class="col-xs-6 col-sm-6 col-md-6 vertical-white-space">
-              <label for="sel1">Kategori:</label>
+              <label for="sel1">Pembayaran:</label>
               <select class="form-control" id="sel1">
                 <option>Semua Kategori</option>
-                <option>Handphone</option>
-                <option>Surat Berharga</option>
-                <option>Kartu ATM</option>
-                <option>Uang</option>
+                <option>Per Bulan</option>
+                <option>Per Semester</option>
+                <option>Per Tahun</option>
               </select>
             </div>
           <div class="col-xs-6 col-sm-6 col-md-6 vertical-white-space">
@@ -50,12 +49,12 @@
           <span>&nbsp;</span>
         </div>
         <div class="form-group row">
-          <div class="col-xs-12 col-sm-6 col-md-6 text-right vertical-white-space">
-            <a href="lost.php" class="btn btn-large grey-btn">Cari Barang Hilang</a>
+          <div class="col-xs-12 col-sm-6 col-md-6  text-right vertical-white-space">
+            <a href="lost.php" class="btn btn-large grey-btn">Cari Kost!</a>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 text-left vertical-white-space">
+       <!--    <div class="col-xs-12 col-sm-6 col-md-6 text-left vertical-white-space">
             <a href="found.php" class="btn btn-large grey-btn">Cari Pemilik Barang</a>
-          </div>
+          </div> -->
         </div>
       </foorm>
     </div>

@@ -6,7 +6,7 @@
       <i id="hide-sidebar-trigger" class="fa fa-close icon-menu hover-opacity hide" onclick="hide_sidebar();"></i>
     </div>
     <div class="col-xs-7">
-      <h3><b>TEMUKAN</b><span style="font-size:0.5em;">.com</span></h3>
+      <h3><b>SIKOST</b><span style="font-size:0.5em;">.com</span></h3>
     </div>
     <div class="col-xs-4 text-right">
       <a href="register.php" class="btn btn-red hide-on-small">Registrasi</a>
@@ -28,9 +28,9 @@
     <ul>
       <li>
         <a class="active" href="index.php"><i class="fa fa-search"></i> Pencarian</a>
-        <a class="pointer-hover" data-toggle="modal" data-target="#login-required"><i class="fa fa-bullhorn"></i> Buat Pengumuman</a>
-        <a href="lost.php"><i class="fa fa-th"></i> Daftar Kehilangan</a>
-        <a href="found.php"><i class="fa fa-th"></i> Daftar Penemuan</a>
+        <!-- <a class="pointer-hover" data-toggle="modal" data-target="#login-required"><i class="fa fa-bullhorn"></i> Buat Pengumuman</a> -->
+        <a href="lost.php"><i class="fa fa-th"></i> List Kost</a>
+       <!--  <a href="found.php"><i class="fa fa-th"></i> Daftar Penemuan</a> -->
       </li>
     </ul>
   </div>

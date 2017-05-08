@@ -6,7 +6,7 @@
       <i id="hide-sidebar-trigger" class="fa fa-close icon-menu hover-opacity hide" onclick="hide_sidebar();"></i>
     </div>
     <div class="col-xs-7">
-      <h3><b>TEMUKAN</b><span style="font-size:0.5em;">.com</span></h3>
+      <h3><b>SIKOST</b><span style="font-size:0.5em;">.com</span></h3>
     </div>
     <div class="col-xs-4 text-right">
       <button class="btn btn-white hide-on-small" data-toggle="modal" data-target="#new-post"><i class="fa fa-bullhorn" style="margin-right:1em;"></i>Buat Pengumuman</a></button>

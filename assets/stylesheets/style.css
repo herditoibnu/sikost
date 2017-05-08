@@ -26,7 +26,7 @@ body {
     position: absolute;
     width: 40em;
     left: calc(50% - 20em);
-    bottom: -15em; }
+    bottom: -1em; }
     @media (max-width: 768px) {
       .full-screen-section img.illust {
         display: none; } }
