@@ -1,0 +1,491 @@
+// VARIABLE
+$green: #4CAF50;
+$darkgreen: #388E3C;
+$lightgreen: #81C784;
+$red: #F44336;
+$darkred: #D32F2F;
+$lightred: #E57373;
+$softblack: #5f5f5f;
+$darkgrey: #a6a6a6;
+$grey: #e0e0e0;
+$lightgrey: #f8f8f8;
+
+// MIXIN
+@mixin z-depth($value) {
+  box-shadow: 1px 3px $value+px rgba(0, 0, 0, 0.4) !important;
+}
+@mixin my-radius {
+  border-radius: 1.5em !important;
+}
+@mixin flat-button($background, $text) {
+  background-color: $background !important;
+  color: $text !important;
+  @include my-radius;
+}
+@mixin border-all($color) {
+  border: solid 1px $color !important;
+}
+@mixin smooth-transition($time) {
+  transition: all $time+s ease !important;
+}
+@mixin vertical-white-space($value) {
+  margin: $value+em auto !important;
+}
+@mixin do-transform($x, $y) {
+  -ms-transform: translate($x, $y) !important; /* IE 9 */
+  -webkit-transform: translate($x, $y) !important; /* Safari */
+  transform: translate($x, $y) !important;
+  @include smooth-transition(0.3);
+}
+
+
+// STYLE
+body{
+  background-color: $lightgrey;
+  color:$softblack;
+
+}
+
+.green{
+  background-color: $green !important;
+}
+
+.white{
+  background-color: white !important;
+}
+
+.white-text{
+  color: white !important;
+}
+
+.dark-grey-text{
+  color: $darkgrey !important;
+}
+
+.full-screen-section{
+  height: 100vh;
+  background-color: $green;
+  color: white;
+  padding-top: 9em;
+  position: relative;
+  overflow: hidden;
+
+  img.illust{
+    z-index: 1;
+    position: absolute;
+    width: 40em;
+    left: calc(50% - 20em);
+    bottom: -15em;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.search-form{
+  width: 100%;
+  margin: 2em auto;
+
+  .parameter{
+    height: 4em;
+    overflow: hidden;
+    @include smooth-transition(0.5);
+  }
+
+  input[type="text"].search-input{
+    padding: 1em 1.5em;
+    height: 3em;
+    border: none;
+    @include z-depth(5);
+    @include my-radius;
+  }
+
+  input[type="text"].search-input:hover, input[type="text"].search-input:focus{
+    @include z-depth(20);
+  }
+
+  .col-md-6{
+    z-index: 2;
+    @media (max-width: 768px) {
+      text-align: center !important;
+      @include vertical-white-space(0.5);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 60em;
+  }
+}
+
+.grey-btn, .grey-btn:focus{
+  @include flat-button($grey, $softblack);
+}
+
+.grey-btn:hover{
+  @include flat-button(white, $green);
+  @include smooth-transition(0.3);
+}
+
+.btn-grey, .btn-grey:focus{
+  @include flat-button($grey, $softblack);
+}
+
+.btn-grey:hover{
+  @include flat-button($darkgrey, white);
+  @include smooth-transition(0.3);
+}
+
+.btn-white{
+  @include flat-button(white, $softblack);
+}
+
+.btn-white:hover{
+  @include flat-button($grey, $softblack);
+  @include smooth-transition(0.3);
+}
+
+.btn-red{
+  @include flat-button($red, white);
+}
+
+.btn-red:hover{
+  @include flat-button($darkred, white);
+  @include smooth-transition(0.3);
+}
+
+.btn-green{
+  @include flat-button($green, white);
+}
+
+.btn-green:hover{
+  @include flat-button($darkgreen, white);
+  @include smooth-transition(0.3);
+}
+
+
+.btn-large{
+  padding: 1em;
+}
+
+.hover-opacity:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.float-header{
+  background-color: $green;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 4em;
+  color: white;
+  @include z-depth(10);
+
+  .menu-wrapper{
+    margin-top: 0.5em;
+    height: 3em;
+  }
+
+  i.icon-menu{
+    font-size: 2em;
+    margin-top:0.2em;
+
+  }
+
+  h3{
+    margin-top:0.25em;
+  }
+
+  button{
+    margin-top:0.25em;
+  }
+}
+
+.sidebar{
+  z-index: 99;
+  background-color: white;
+  height: 100%;
+  width: 20em;
+  position: fixed;
+  padding-top: 5.5em;
+  @include z-depth(10);
+  @include do-transform(-100%,0px);
+
+  .sidebar-section{
+    padding: 0;
+    ul{
+      width: 100%;
+      list-style: none;
+      padding-left: 0px;
+      li{
+        a{
+          padding: 1.5em;
+          display: block;
+          width: 100% !important;
+          text-decoration: none;
+          color: $softblack;
+
+          i.fa{
+            margin-right: 1em;
+          }
+        }
+
+        a.active{
+          background-color: $lightgrey;
+          color: $green;
+          border-right: solid 5px $green;
+          font-weight: bold;
+        }
+
+        a:hover{
+          background-color: $lightgrey;
+          color: $green;
+        }
+      }
+    }
+  }
+
+}
+
+.full-width{
+  width: 100%;
+}
+
+.hide-on-small{
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.slide-in{
+  @include do-transform(0px,0px);
+}
+
+.overlay{
+  z-index: 98;
+  background-color: black;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: none;
+  cursor: pointer;
+}
+
+.lock-scrolling{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pointer-hover{
+  cursor: pointer;
+}
+
+.modal-green{
+  .modal-header{
+    background-color: $green;
+    color: white;
+
+    button.close{
+      color: white !important;
+      opacity: 0.7 !important;
+    }
+  }
+}
+
+.main{
+  padding-top: 5.5em;
+}
+
+.login-panel{
+  .panel-heading{
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: $green;
+
+    span{
+      font-weight: 400;
+      font-size: 0.65em;
+      color: $softblack;
+    }
+  }
+
+  @media (min-width: 650px) {
+    width: 550px;
+    margin: auto;
+  }
+}
+
+.temukan-form{
+  input, select{
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  input:hover, input:focus, select:hover, select:focus{
+    border: 1px solid $grey;
+    border-bottom: 3px solid $green;
+    box-shadow: none;
+  }
+}
+
+.margin-0p5{
+  margin:0.5em;
+}
+
+.error{
+  font-size: 1em;
+  font-weight: 400;
+  color: $red;
+}
+
+.alert-red{
+  background-color: white;
+  border: solid 1px $grey;
+  border-radius: 0;
+  color: $red;
+  border-left: solid 5px $red;
+}
+
+.alert-green{
+  background-color: white;
+  border: solid 1px $grey;
+  border-radius: 0;
+  color: $green;
+  border-left: solid 5px $green;
+}
+
+.section{
+  background-color: white;
+  padding-bottom: 1em;
+  padding-top:1em;
+  border-bottom: 5px solid $green;
+  margin-bottom: 1em;
+
+  h3{
+    font-weight: bold;
+    color: $green;
+  }
+}
+
+.item{
+  border: 1px solid $grey;
+  padding: 0;
+  margin-bottom: 2em;
+
+  .image{
+    height: 200px;
+    border-bottom: 1px solid $grey;
+    .img {
+        position: relative;
+        float: left;
+        width:  100%;
+        height: 100%;
+        background-position: 50% 50%;
+        background-repeat:   no-repeat;
+        background-size:     cover;
+    }
+  }
+
+  .title{
+    height: 3.4em;
+    padding: 0.5em;
+    overflow: hidden;
+
+    a{
+      color: $softblack !important;
+    }
+  }
+
+  .detail{
+    padding: 0.5em;
+    color: $darkgrey;
+    line-height: 1.5em;
+    font-size: 0.9em;
+
+    i.fa-user-circle{
+      margin-right: 0.7em;
+    }
+    i.fa-map-marker{
+      margin-right: 1.1em;
+    }
+    i.fa-tags{
+      margin-right: 0.6em;
+    }
+  }
+
+  .view-button{
+    padding-bottom: 1em;
+  }
+}
+
+.item:hover{
+  border: 1px solid $green;
+}
+
+.temukan-pagination{
+  li{
+    a{
+      color: $green;
+    }
+  }
+  li.active{
+    a{
+      background-color: $green;
+      border: 1px solid $grey;
+    }
+
+    a:hover{
+      background-color: $darkgreen;
+    }
+  }
+}
+
+.nav-tab{
+  background-color: $green;
+  padding-bottom: 1em;
+  padding-top:1em;
+  margin-bottom: 1em;
+  padding: 0;
+  @include z-depth(10);
+
+  .item-tab{
+    text-align: center;
+    padding-top: 0;
+    a{
+      padding-top: 1.2em;
+      color: white !important;
+      text-decoration: none;
+      display: block;
+      height: 4em;
+    }
+    a.active{
+      border-bottom: 5px white solid;
+      font-weight: bold;
+    }
+    a:hover{
+      border-bottom: 5px white solid;
+    }
+  }
+}
+
+.contact{
+  .panel-body{
+    i.fa-phone{
+      margin-right: 1em;
+    }
+    i.fa-envelope{
+      margin-right: 0.75em;
+    }
+    i.fa-map-marker{
+      margin-right: 1.2em;
+    }
+  }
+}
+
+.input-hint{
+  color: $green;
+  cursor: help;
+  margin-left: 0.5em;
+}
