@@ -1,4 +1,4 @@
-t# sikost
+# sikost
 Sistem Informasi Kost
 
 5114100019 - Sita Nurjayanti
