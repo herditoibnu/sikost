@@ -7,7 +7,6 @@ Sistem Informasi Kost
 
 5114100123 - Irzal Ahmad Sabilla
 
----
 
 # Deskripsi:
 
