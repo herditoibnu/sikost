@@ -8,7 +8,7 @@ Sistem Informasi Kost
 5114100123 - Irzal Ahmad Sabilla
 
 
-# Deskripsi:
+# Deskripsi
 
 Sistem Informasi Kost merupakan sistem informasi yang menangani data-data dari penghuni kos, dimana dapat diakses oleh pemilik kost. 
 
