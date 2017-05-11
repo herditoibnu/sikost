@@ -16,7 +16,7 @@ Pembagian Tugas:
 #user Requirement Develope()
 #Use case()
 #Diagram activity()
-#Skpl()
+#Skpl(Sita)
 
 
 
@@ -33,7 +33,6 @@ Aldo:
 -Setelah itu akan menampilkan menu dimana menu ini akan menampilkan tergantung status username yang terdaftar sebagai :
 @Pemilik: akan ditampilkan 3 pilihan kost tersebut dimana 3 pilihan tersebut akan menampilkan smua informasi tentang kost yang dipilih. plus tambah account penjaga
 
-
 @penjaga: akan menampilkan sama dengan pemilik akan tetapi plus tambah account penghuni
 
 @penghuni: akan menampilkan status pembayaran dan biodata penghuni.
@@ -41,8 +40,21 @@ Aldo:
 
 Menu 
 @pemilik :
-- login
-- ditampilkan 
+- Pemilik dapat masuk ke sistem (login) 
+- Pemilik dapat melihat 3 pilihan kost beserta informasi yang terkait mengenai masing-masing kost tersebut
+- Pemilik dapat menambah akun penjaga
+- Pemilik dapat mengedit biodata profil penjaga
+- Pemilik dapat melihat kamar mana yang statusnya masih belum lunas / belum dibayar
 
+@penjaga :
+- Penjaga dapat masuk ke sistem (login) 
+- Penjaga dapat melihat informasi seluruh kamar dalam satu kost yang ia jaga
+- Penjaga dapat menambah akun penghuni
+- Penjaga dapat mengedit biodata profil penghuni
+- Penjaga dapat memperbarui status pembayaran semua kamar dalam satu kost yang ia dijaga
+- Penjaga dapat melihat kamar mana yang statusnya masih belum lunas / belum dibayar
 
-
+@penghuni :
+- Penghuni dapat masuk ke sistem (login)
+- Penghuni dapat melihat biodata profil diri sendiri
+- Penghuni dapat ngengecek riwayat pemmbayaran
