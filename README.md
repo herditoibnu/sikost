@@ -48,8 +48,8 @@ Menu
 
 @penjaga :
 - Penjaga dapat masuk ke sistem (login) 
-- Penjaga dapat melihat informasi seluruh kamar dalam satu kost yang ia jaga
-- Penjaga dapat menambah akun penghuni
+- Penjaga dapat melihat informasi seluruh kamar dalam satu kost yang dia jaga
+- Penjaga dapat menambah akun penghuni Kost
 - Penjaga dapat mengedit biodata profil penghuni
 - Penjaga dapat memperbarui status pembayaran semua kamar dalam satu kost yang ia dijaga
 - Penjaga dapat melihat kamar mana yang statusnya masih belum lunas / belum dibayar
@@ -57,4 +57,4 @@ Menu
 @penghuni :
 - Penghuni dapat masuk ke sistem (login)
 - Penghuni dapat melihat biodata profil diri sendiri
-- Penghuni dapat ngengecek riwayat pemmbayaran
+- Penghuni dapat ngengecek riwayat pemmbayaran/3 bulan
