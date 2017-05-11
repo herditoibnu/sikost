@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>SIKOST | SISTEM INFORMASI KOST</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
         <div class="animate form login_form">
           <section class="login_content">
             <form>
-              <h1>Login Form</h1>
+              <h1>Masuk</h1>
               <div>
                 <input type="text" class="form-control" placeholder="Username" required="" />
               </div>
@@ -40,29 +40,34 @@
               </div>
               <div>
                 <a class="btn btn-default submit" href="index.html">Log in</a>
-                <a class="reset_pass" href="#">Lost your password?</a>
               </div>
-
+    <!--           <div>
+                <a class="btn btn-default submit" href="index.html">Log in</a>
+                <a class="reset_pass" href="#">Lupa password?</a>
+              </div>
+ -->
               <div class="clearfix"></div>
 
               <div class="separator">
-                <p class="change_link">New to site?
+             <!--    <p class="change_link">New to site?
                   <a href="#signup" class="to_register"> Create Account </a>
-                </p>
+                </p> -->
 
                 <div class="clearfix"></div>
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                  <h1><i class="fa fa-home"></i> Sistem Informasi Kost</h1>
+                  <p>©2016 All Rights Reserved.
+                   <br>SIKOST - Sistem Informasi Kost.
+                  </p>
                 </div>
               </div>
             </form>
           </section>
         </div>
 
-        <div id="register" class="animate form registration_form">
+<!--         <div id="register" class="animate form registration_form">
           <section class="login_content">
             <form>
               <h1>Create Account</h1>
@@ -96,7 +101,7 @@
               </div>
             </form>
           </section>
-        </div>
+        </div> -->
       </div>
     </div>
   </body>
