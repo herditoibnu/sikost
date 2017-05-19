@@ -30,7 +30,7 @@
     <link href="../vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
     <link href="../vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
     <link href="../vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
-
+    
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
   </head>
@@ -133,8 +133,8 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-edit"></i> Penjaga Kost <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="e_commerce.html">List Penjaga</a></li>
-                      <li><a href="e_commerce.html">Tambah Penjaga</a></li>
+                      <li><a href="penjaga_list.php">List Penjaga</a></li>
+                      <li><a href="penjaga_tambah.php">Tambah Penjaga</a></li>
                    <!--    <li><a href="projects.html">Projects</a></li>
                       <li><a href="project_detail.html">Project Detail</a></li>
                       <li><a href="contacts.html">Contacts</a></li>
@@ -235,7 +235,7 @@
                           <span class="time">Belum Membayar</span>
                         </span>
                         <span class="message">
-                          Pembayaran Jatuh Tempo: 12/05/2017
+                          Pembayaran Jatuh Tempo: 05/12/2017
                         </span>
                       </a>
                     </li>
@@ -247,7 +247,7 @@
                           <span class="time">Belum Membayar</span>
                         </span>
                         <span class="message">
-                          Pembayaran Jatuh Tempo: 10/05/2017
+                          Pembayaran Jatuh Tempo: 05/10/2017
                         </span>
                       </a>
                     </li>
@@ -259,7 +259,7 @@
                           <span class="time">Belum Membayar</span>
                         </span>
                         <span class="message">
-                          Pembayaran Jatuh Tempo: 09/05/2017
+                          Pembayaran Jatuh Tempo: 05/09/2017
                         </span>
                       </a>
                     </li>

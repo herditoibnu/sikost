@@ -4,7 +4,7 @@
   <div class="">
     <div class="page-title">
       <div class="title_left">
-        <h3>Kost 1</h3>
+        <h3>Penjaga Kost</h3>
       </div>
 
      <!--  <div class="title_right">
@@ -25,7 +25,7 @@
       <div class="col-md-12 col-sm-12 col-xs-12">
            <div class="x_panel">
                   <div class="x_title">
-                    <h2>Tambah Kamar</h2>
+                    <h2>Tambah Penjaga</h2>
             <!--         <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -45,33 +45,49 @@
                   </div>
                   <div class="x_content">
                     <br />
-                    <form id="demo-form2" action="kamar_list.php" data-parsley-validate class="form-horizontal form-label-left">
-
+                    <form id="demo-form2" action="penjaga_list.php" data-parsley-validate class="form-horizontal form-label-left">
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Nomor Kamar <span class="required">*</span>
-                        </label>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="first-name" placeholder="Nomor Kamar Kost" required="required" class="form-control col-md-7 col-xs-12">
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Kategori Kamar <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Kost <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                         <!--   <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12"> -->
-                        <select id="kamar" class="form-control" required>
-                          <option value="" selected disabled>Pilih Kategori</option>
-                          <option value="reguler">Reguler</option>
-                          <option value="ac">AC</option>
-                          <option value="km">Kamar Mandi Dalam</option>
-                          <option value="ackm">AC + Kamar Mandi Dalam</option>
+                        <select id="kost" class="form-control" required>
+                          <option value="" selected disabled>Pilih Kost</option>
+                          <option value="kost1">Kost 1</option>
+                          <option value="kost2">Kost 2</option>
+                          <option value="kost3">Kost 3</option>
                         </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Nama <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input type="text" id="first-name" placeholder="Nama Penjaga" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Alamat <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input type="text" id="first-name" placeholder="Alamat Penjaga" required="required" class="form-control col-md-7 col-xs-12">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Tanggal Lahir <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <!-- <input type="text" id="first-name"  placeholder="Tanggal Lahir Penjaga" required="required" class="form-control col-md-7 col-xs-12"> -->     
+                          <input type="text" class="form-control has-feedback-left col-md-7 col-xs-12" id="single_cal1" aria-describedby="inputSuccess2Status">
+                          <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                          <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                   
                         </div>
                       </div>
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                          <a href="kamar_list.php" class="btn btn-primary">Batal</a>
+                          <a href="penjaga_list.php" class="btn btn-primary">Batal</a>
                           <button type="submit" class="btn btn-success">Tambah</button>
                         </div>
                       </div>

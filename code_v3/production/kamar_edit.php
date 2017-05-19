@@ -25,7 +25,7 @@
       <div class="col-md-12 col-sm-12 col-xs-12">
            <div class="x_panel">
                   <div class="x_title">
-                    <h2>Tambah Kamar</h2>
+                    <h2>Edit Kamar</h2>
             <!--         <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -51,28 +51,63 @@
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Nomor Kamar <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="first-name" placeholder="Nomor Kamar Kost" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="text" id="first-name" value="1" placeholder="Nomor Kamar Kost" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Kategori Kamar <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Kategori <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                         <!--   <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12"> -->
                         <select id="kamar" class="form-control" required>
                           <option value="" selected disabled>Pilih Kategori</option>
-                          <option value="reguler">Reguler</option>
+                          <option value="reguler" selected>Reguler</option>
                           <option value="ac">AC</option>
                           <option value="km">Kamar Mandi Dalam</option>
                           <option value="ackm">AC + Kamar Mandi Dalam</option>
                         </select>
                         </div>
                       </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Status Kamar <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <!--   <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12"> -->
+                        <select id="kamar" class="form-control" required>
+                          <option value="" selected disabled>Pilih Status Kamar</option>
+                          <option value="isi" selected>Isi</option>
+                          <option value="kosong">Kosong</option>
+                        </select>
+                        </div>
+                      </div>
+                       <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Pembayaran Terakhir <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <!--   <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12"> -->
+                        <select id="kamar" class="form-control" required>
+                          <option value="" selected disabled>Pilih Status Pembayaran</option>
+                          <option value="sbayar" selected>Sudah Bayar</option>
+                          <option value="bbayar">Belum Bayar</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Pembayaran Jatuh Tempo <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <!-- <input type="text" id="first-name"  placeholder="Tanggal Lahir Penjaga" required="required" class="form-control col-md-7 col-xs-12"> -->     
+                          <input type="text" class="form-control has-feedback-left col-md-7 col-xs-12" id="single_cal1" aria-describedby="inputSuccess2Status" value="06/14/2017">
+                          <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                          <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                   
+                        </div>
+                      </div>
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                           <a href="kamar_list.php" class="btn btn-primary">Batal</a>
-                          <button type="submit" class="btn btn-success">Tambah</button>
+                          <button type="submit" class="btn btn-success">Edit</button>
                         </div>
                       </div>
                     </form>
