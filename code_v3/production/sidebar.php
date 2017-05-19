@@ -41,7 +41,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-home"></i> <span>SIKOST</span></a>
+              <a href="index.php" class="site_title"><i class="fa fa-home"></i> <span>SIKOST</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -66,23 +66,20 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> Kost 1 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.php">Kamar Kosong</a></li>
-                      <li><a href="index2.html">Kamar Isi</a></li>
-                      <li><a href="index3.html">Belum Bayar</a></li>
+                      <li><a href="kamar_list.php">List Kamar</a></li>
+                      <li><a href="kamar_tambah.php">Tambah Kamar</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-home"></i> Kost 2 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">Kamar Kosong</a></li>
-                      <li><a href="index2.html">Kamar Isi</a></li>
-                      <li><a href="index3.html">Belum Bayar</a></li>
+                     <li><a href="#">List Kamar</a></li>
+                      <li><a href="#">Tambah Kamar</a></li>
                     </ul>
                   </li>
                  <li><a><i class="fa fa-home"></i> Kost 3 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">Kamar Kosong</a></li>
-                      <li><a href="index2.html">Kamar Isi</a></li>
-                      <li><a href="index3.html">Belum Bayar</a></li>
+                      <li><a href="#">List Kamar</a></li>
+                      <li><a href="#">Tambah Kamar</a></li>
                     </ul>
                   </li>
                   <!-- <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
@@ -136,6 +133,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-edit"></i> Penjaga Kost <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
+                      <li><a href="e_commerce.html">List Penjaga</a></li>
                       <li><a href="e_commerce.html">Tambah Penjaga</a></li>
                    <!--    <li><a href="projects.html">Projects</a></li>
                       <li><a href="project_detail.html">Project Detail</a></li>
@@ -178,7 +176,7 @@
             <!-- /sidebar menu -->
 
             <!-- /menu footer buttons -->
-            <div class="sidebar-footer hidden-small">
+ <!--            <div class="sidebar-footer hidden-small">
               <a data-toggle="tooltip" data-placement="top" title="Settings">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
               </a>
@@ -191,7 +189,7 @@
               <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
                 <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
               </a>
-            </div>
+            </div> -->
             <!-- /menu footer buttons -->
           </div>
         </div>
@@ -205,13 +203,13 @@
               </div>
 
               <ul class="nav navbar-nav navbar-right">
-                <li class="">
-                  <a class="user-profile" aria-expanded="false">
+              <!--     <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                     <img src="images/gambar_sidebar.jpg" alt="">Pemilik Kost
-                 <!--    <span class=" fa fa-angle-down"></span> -->
+                    <span class=" fa fa-angle-down"></span>
                   </a>
-            <!--       <ul class="dropdown-menu dropdown-usermenu pull-right">
-                    <li><a href="javascript:;"> Profile</a></li>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                  <li><a href="javascript:;"> Profile</a></li>
                     <li>
                       <a href="javascript:;">
                         <span class="badge bg-red pull-right">50%</span>
@@ -220,73 +218,61 @@
                     </li>
                     <li><a href="javascript:;">Help</a></li>
                     <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
-                  </ul> -->
-                </li>
-
-             <!--    <li role="presentation" class="dropdown">
+                  </ul>
+                </li> -->
+                <li><a href="login.php"><i class="fa fa-sign-out"></i> Logout</a></li>
+                <li role="presentation" class="dropdown">
                   <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-envelope-o"></i>
-                    <span class="badge bg-green">6</span>
+                    <span class="badge bg-green">3</span>
                   </a>
                   <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="images/gambar_sidebar.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
+                          <span>Kost 1 - Kamar 1</span>
+                          <span class="time">Belum Membayar</span>
                         </span>
                         <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                          Pembayaran Jatuh Tempo: 12/05/2017
                         </span>
                       </a>
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="images/gambar_sidebar.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
+                          <span>Kost 1 - Kamar 4</span>
+                          <span class="time">Belum Membayar</span>
                         </span>
                         <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                          Pembayaran Jatuh Tempo: 10/05/2017
                         </span>
                       </a>
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="images/gambar_sidebar.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
+                          <span>Kost 2 - Kamar 3</span>
+                          <span class="time">Belum Membayar</span>
                         </span>
                         <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                          Pembayaran Jatuh Tempo: 09/05/2017
                         </span>
                       </a>
                     </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
+                   <!--  <li>
                       <div class="text-center">
                         <a>
                           <strong>See All Alerts</strong>
                           <i class="fa fa-angle-right"></i>
                         </a>
                       </div>
-                    </li>
+                    </li> -->
                   </ul>
-                </li> -->
+                </li>
               </ul>
             </nav>
           </div>
