@@ -64,7 +64,7 @@
                   <td><?php echo $i+1;?></td>
                   <td>Reguler</td>
                   <td>Isi</td>
-                  <td>Sudah Bayar</td>
+                  <td style="background-color: green; color: white;">Sudah Bayar</td>
                   <td>06/14/2017</td>
                   <td><a href="kamar_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
                   <td>
@@ -96,7 +96,7 @@
                   <td><?php echo $i+6;?></td>
                   <td>AC</td>
                   <td>Kosong</td>
-                  <td>Belum Bayar</td>
+                  <td style="background-color: red; color: white;">Belum Bayar</td>
                   <td>05/18/2017</td>
                   <td> <a href="kamar_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
                   <td>
@@ -128,7 +128,7 @@
                   <td><?php echo $i+11;?></td>
                   <td>Kamar Mandi Dalam</td>
                   <td>Isi</td>
-                  <td>Sudah Bayar</td>
+                  <td style="background-color: green; color: white;">Sudah Bayar</td>
                   <td>06/20/2017</td>
                   <td> <a href="kamar_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
                   <td>
@@ -160,7 +160,7 @@
                   <td><?php echo $i+16;?></td>
                   <td>AC + Kamar Mandi Dalam</td>
                   <td>Kosong</td>
-                  <td>Belum Bayar</td>
+                  <td style="background-color: red; color: white;">Belum Bayar</td>
                   <td>05/19/2017</td>
                   <td> <a href="kamar_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
                   <td>
