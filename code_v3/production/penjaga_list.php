@@ -49,6 +49,7 @@
                 <tr>
                   <th>Kost</th>
                   <th>Nama</th>
+                  <th>No Telepon</th>
                   <th>Alamat</th>
                   <th>Tanggal Lahir</th>
                   <th>Edit</th>
@@ -61,6 +62,7 @@
                 <tr>
                   <td>1</td>
                   <td>Anton Sucipto</td>
+                  <td>081234567890</td>
                   <td>Keputih, Surabaya</td>
                   <td>03/16/1980</td>
                   <td><a href="penjaga_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
@@ -90,6 +92,7 @@
                 <tr>
                   <td>2</td>
                   <td>Rudi Hermawan</td>
+                  <td>081987654321</td>
                   <td>Mulyosari, Surabaya</td>
                   <td>07/12/1981</td>
                   <td><a href="penjaga_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
@@ -119,6 +122,7 @@
                 <tr>
                   <td>3</td>
                   <td>Hendrawan</td>
+                  <td>081543216789</td>
                   <td>Keputih, Surabaya</td>
                   <td>06/30/1979</td>
                   <td><a href="penjaga_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
