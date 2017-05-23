@@ -1,0 +1,62 @@
+Sistem ForRent 
+lufthanza group.
+
+-pada layar pertama sistem menampilkan menu login.
+-setelah login sistem akan menampilkan main menu terdiri dari:
+1.daftar kendaraan dan driver.
+2.status kendaraan.
+3.jadwal service kendaraan.
+4.jadwal rekap/pembayaran kendaraan.   
+6.penyewaan
+
+Setiap menu akan memiliki sub menu diantaranya :
+1
+:a.menampilkan semua armada berdasarkan nopol dan harga.
+b.setiap driver memiliki 1 armada yang dikendarai(1mobil 1 driver).
+c.setiap nopol menampilkan nama mobil,merk,jenis,isi penumpang.
+d.menu edit untuk mengisi data untuk armada baru ataupun driver baru.
+!! semua dikemas dalam bentuk tabel yang mudah dibaca!!
+
+
+2:
+a.sistem akan menampilkan semua data armada(nopol,nama mobil) 
+b.sistem menampilkan armada dengan catatan=-driver dan mobil siap(hijau)
+							- di booking orang(merah)
+							- dalam kondisi di service.(coklat)
+							- tidak dalam kondisi bermasalah dalam apapun.(oranye)
+c.Tombol edit untuk memberikan status pada setiap mobil.
+!! semua dalam bentuk tabel yang mudah dibaca!!
+!! semua data terintegrasi oleh tim imspeksi dan menu2 lainya.
+
+3:
+a.sistem akan menampilkan semua daftar mobil yang harus di service rutin(service rutin setiap 10.000km/8hari jalan) data ini didapat dari tim inpeksi.
+b.sistem juga akan menampilkan kendala berkala pada setiap mobil contoh alarm mati ,lampu pecah atau yang lainya. catatan ini di letakkan menjadi satu service bekala, namun mobil yang belum saatnya service dan ada kendala berhak masuk dalam daftar menu ini.data ini didapat dari tim inspeksi.
+c.sistem terintegrasi dengan tim checklist montir dimana montir akan akan mengerjakan/membenarkan mobil sesuai dengan daftar keluhan oleh driver maupun tim inspeksi.
+d.ketika tim ceklist dan inpeksi menyatkan setuju maka pada tabel nopol ini berwarna hijau dan bisa berjalan/ masuk daftar mobil siap disewa.
+e.ketika melakukan service maupun perbaikan ada kolom untuk mengisikan detil dan harga biaya.
+!! semua menu dalam bentuk tabel dan berbagai warna yang mudah di baca.
+!! tugas tim inpeksi adalah melakukan cek sebelum mobil keluar dan mobil masuk.
+
+4:
+a.sistem menampilkan harga setiap sewa mobil(nopol)per tanggal dan pengeluaran(service dll) di jumlah pada 1 bulan.
+b.ada tulisan total smua armada dan smua pengeluaran(hasil fix)pemasukan.
+c.harga untuk setiap jenis mobil sesuai dengan harga yang ditentukna plus langsung dikurangi dengan biaya supir 100rb.
+contoh avanza veloz 450 rb/hari dimana 350 mbil 100 rb supir.
+!! semua dalam bentuk tabel yang mudah dibaca.
+!! ketika tanggal merah smua kendaraan langsung di markup 50rb/hari.
+!!semua harga adalah fix tidak ada penawaran 
+
+
+5.
+a.menampilkan komentar dari siapapun(tim inspeksi,driver)mengenai mobil sesuai nopol. 
+!! semua dalam bentuk tabel.
+
+6.
+a. Menu awal akan disuguhkan tanggal dimana tanggal keberangkatan dan kepulangan.
+b.setelah memilih akan muncul semua mobil yang ready pada tanggal yang dipilih sesuai dengan harga dan ada tombol ambil.
+c.setelah itu akan muncul struk print2an nama driver,plat no dan mobil data diambil dari point menu 1.a dan b.
+!! mobil yang ready adalah mobil yang benar2 tidak dalam fase service,perbaikan,dibooking orang ataupun masalah. dan keterkaitan sesuai dengan menu no 3 dan 2.
+
+Catatan :
+-setiap mobil akan keluar garasi akan melalui checklist oleh tim inspeksi termasuk km, dan ketika mobil kembali akan dilakukan checklist lagi sehingga data daari tim inspeksi terhubung dengan menu 2 dan 3. termasuk saat mobil sudah harus kembali namun tim inspeksi belum menerima laporan masuknya mobil maka status akan dibooking orang ataupun tidak ready untuk disewa.
+- manfaaat tim inspeksi adalah mengetahui kondisi kendaraan,lama keluarnya kendaraan dll. 
