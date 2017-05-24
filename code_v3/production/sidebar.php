@@ -228,7 +228,7 @@
                   </a>
                   <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                     <li>
-                      <a>
+                      <a style="pointer-events: none; cursor: default;">
                         <span class="image"><img src="images/gambar_sidebar.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>Kost 1 - Kamar 1</span>
@@ -240,7 +240,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a style="pointer-events: none; cursor: default;">
                         <span class="image"><img src="images/gambar_sidebar.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>Kost 1 - Kamar 4</span>
@@ -252,7 +252,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a style="pointer-events: none; cursor: default;">
                         <span class="image"><img src="images/gambar_sidebar.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>Kost 2 - Kamar 3</span>
