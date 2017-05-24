@@ -96,8 +96,8 @@
                   <td><?php echo $i+6;?></td>
                   <td>AC</td>
                   <td>Kosong</td>
-                  <td style="background-color: red; color: white;">Belum Bayar</td>
-                  <td>05/18/2017</td>
+                  <td>-</td>
+                  <td>-</td>
                   <td> <a href="kamar_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
                   <td>
                     <a href="#" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o"></i> Hapus </a>
@@ -128,8 +128,8 @@
                   <td><?php echo $i+11;?></td>
                   <td>Kamar Mandi Dalam</td>
                   <td>Isi</td>
-                  <td style="background-color: green; color: white;">Sudah Bayar</td>
-                  <td>06/20/2017</td>
+                  <td style="background-color: red; color: white;">Belum Bayar</td>
+                  <td>05/20/2017</td>
                   <td> <a href="kamar_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
                   <td>
                     <a href="#" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o"></i> Hapus </a>
@@ -160,8 +160,8 @@
                   <td><?php echo $i+16;?></td>
                   <td>AC + Kamar Mandi Dalam</td>
                   <td>Kosong</td>
-                  <td style="background-color: red; color: white;">Belum Bayar</td>
-                  <td>05/19/2017</td>
+                  <td>-</td>
+                  <td>-</td>
                   <td> <a href="kamar_edit.php" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a></td>
                   <td>
                     <a href="#" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o"></i> Hapus </a>
