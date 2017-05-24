@@ -25,7 +25,7 @@
       <div class="col-md-12 col-sm-12 col-xs-12">
         <div class="x_panel">
           <div class="x_title">
-            <h2>List Pembayaran</h2>
+            <h2>Riwayat Pembayaran</h2>
            <!--  <ul class="nav navbar-right panel_toolbox">
               <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
               </li>
@@ -55,13 +55,21 @@
 
 
               <tbody>
-                <?php for($i=0;$i<5;$i++){ ?>
                 <tr>
-                  <td><?php echo $i+1;?></td>
+                  <td>1</td>
                   <td style="background-color: green; color: white;">Sudah Bayar</td>
-                  <td>06/14/2017</td>
+                  <td>11/20/2016</td>
                 </tr>
-                <?php } ?>
+                <tr>
+                  <td>2</td>
+                  <td style="background-color: green; color: white;">Sudah Bayar</td>
+                  <td>02/20/2017</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td style="background-color: red; color: white;">Belum Bayar</td>
+                  <td>05/20/2017</td>
+                </tr>
               </tbody>
             </table>
           </div>

@@ -53,7 +53,7 @@
               </div>
               <div class="profile_info">
                 <span>Selamat Datang</span>
-                <h2>Roni Sucipto</h2>
+                <h2>Rahmat Setiawan</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
