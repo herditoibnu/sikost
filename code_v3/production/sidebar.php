@@ -72,14 +72,14 @@
                   </li>
                   <li><a><i class="fa fa-home"></i> Kost 2 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                     <li><a href="#">List Kamar</a></li>
-                      <li><a href="#">Tambah Kamar</a></li>
+                      <li><a href="kamar_list2.php">List Kamar</a></li>
+                      <li><a href="kamar_tambah2.php">Tambah Kamar</a></li>
                     </ul>
                   </li>
                  <li><a><i class="fa fa-home"></i> Kost 3 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">List Kamar</a></li>
-                      <li><a href="#">Tambah Kamar</a></li>
+                      <li><a href="kamar_list3.php">List Kamar</a></li>
+                      <li><a href="kamar_tambah3.php">Tambah Kamar</a></li>
                     </ul>
                   </li>
                   <!-- <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
