@@ -28,18 +28,21 @@ Menu
 - Pemilik dapat masuk ke sistem (login) 
 - Pemilik dapat melihat 3 pilihan kost beserta informasi yang terkait mengenai masing-masing kost tersebut
 - Pemilik dapat menambah akun penjaga
-- Pemilik dapat mengedit biodata profil penjaga
+- Pemilik dapat mengedit biodata penjaga
+- Pemilik dapat melihat daftar penjaga
+- Pemilik dapat menambah kamar
+- Pemilik dapat menghapus kamar
+- Pemilik dapat mengedit status isi kost
+- Pemilik dapat mengedit status bayar kost
 - Pemilik dapat melihat kamar mana yang statusnya masih belum lunas / belum dibayar
 
 @penjaga :
 - Penjaga dapat masuk ke sistem (login) 
-- Penjaga dapat melihat informasi seluruh kamar dalam satu kost yang dia jaga
 - Penjaga dapat menambah akun penghuni Kost
+- Penjaga dapat melihat daftar penghuni
 - Penjaga dapat mengedit biodata profil penghuni
-- Penjaga dapat memperbarui status pembayaran semua kamar dalam satu kost yang ia dijaga
 - Penjaga dapat melihat kamar mana yang statusnya masih belum lunas / belum dibayar
 
 @penghuni :
 - Penghuni dapat masuk ke sistem (login)
-- Penghuni dapat melihat biodata profil diri sendiri
 - Penghuni dapat ngengecek riwayat pemmbayaran/3 bulan
