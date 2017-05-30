@@ -9,21 +9,6 @@ Sistem Informasi Kost
 
 Develope sebgai kelompok 7 Sikost.
 
-Pembagian Tugas:
-#Project manager (Irzal)
-#Desain()
-#user requirement Client(Irzal)
-#user Requirement Develope()
-#Use case()
-#Diagram activity()
-#Skpl(Sita)
-
-
-
-
-
-
-
 Dekskripsi kasar:
 Sistem ini akan mengolah data internal dimana client memiliki 3 kost(merpati,Garuda,elang), Disetiap kost memiliki sangat banyak kamar dan beragam.
 Metode pembayaran pun juga masih menggunakan sistem manual yaitu mencatat /3bulan. Hitungan pembayaran pada kost ini adalah setiap 3bulan. Harga kostpun juga beragam tergantung fasilitas. Pada setiap kost memiliki 100 kamar lebih. Dikarenakan akibat terlalu banyak kamar terkadang proses pembayaranpun membingungkan, status kamar kosong juga kadang lengah untuk dicatat bahkan tagihan yang sering nunggak luput dari catatan. bahkan ke 3 kost ini datanya tidak terpusat atau sinkronisasi. Sehingga pemilik terkadang kebingungan untuk mengontrol pengeluaran maupun pemasukan. Pihak client menginginkan bagaimana data tersebut lebih mudah diolah dan dipusatkan pada 1 sistem. sehingga untuk pengecekan transaksi lebih mudah dan cepat. DAn dari pihak penghuni juga bisa melihat tagihan status pembayaranya, sehingga antara pihak pemilik dan penghuni datanya sinkron. Disetiap kost ada penjaganya 1. dan setiap kost memiliki data kamar dan penghuni yang berbeda. Client(pemilik kost) juga ingin dibuatkan status mana kamar yang kosong dan mana yang telah terisi. 
