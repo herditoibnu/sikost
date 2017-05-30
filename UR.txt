@@ -7,7 +7,7 @@ lufthanza group.
 2.status kendaraan.
 3.jadwal service kendaraan.
 4.jadwal rekap/pembayaran kendaraan.   
-6.penyewaan
+5.penyewaan
 
 Setiap menu akan memiliki sub menu diantaranya :
 1
@@ -48,10 +48,6 @@ contoh avanza veloz 450 rb/hari dimana 350 mbil 100 rb supir.
 
 
 5.
-a.menampilkan komentar dari siapapun(tim inspeksi,driver)mengenai mobil sesuai nopol. 
-!! semua dalam bentuk tabel.
-
-6.
 a. Menu awal akan disuguhkan tanggal dimana tanggal keberangkatan dan kepulangan.
 b.setelah memilih akan muncul semua mobil yang ready pada tanggal yang dipilih sesuai dengan harga dan ada tombol ambil.
 c.setelah itu akan muncul struk print2an nama driver,plat no dan mobil data diambil dari point menu 1.a dan b.
